@@ -6,6 +6,32 @@ The architecture is intended to look like this:
 
 ![architecture](https://raw.githubusercontent.com/plopezlpz/fiber-starter-doc/master/assets/images/architecture-go-fiber-bg.png)
 
+Folder structure:
+```
+.
+├── Makefile
+├── README.md
+├── config
+│   └── vars
+│       └── vars.go
+├── domain
+│   └── domain.go
+├── dto
+│   └── doc.go
+├── go.mod
+├── go.sum
+├── handler
+│   └── health.go
+├── main.go
+├── model
+│   └── doc.go
+├── rest
+│   ├── rest.go
+│   └── router.go
+└── service
+    └── service.go
+```
+
 
 ## Quick Start
 
