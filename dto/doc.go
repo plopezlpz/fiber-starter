@@ -6,7 +6,7 @@
 // e.g.:
 //	package model
 // 	type Coffee struct {
-//		Id	          `json:"id"`
+//		Id            `json:"id"`
 //		Variant	      `json:"variant"`
 //		CustomerPrice `json:"price"`
 // 		Origin        `json:"origin"`
